@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+"""
+This module provides a function that returns a multiplier function.
+"""
+
+
 from typing import List, Tuple
 
 
