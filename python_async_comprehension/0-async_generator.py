@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-This module contains a coroutine that yields random numbers asynchronously.
+This module contains a coroutine
+that yields random numbers asynchronously.
 """
 
 
@@ -13,7 +14,8 @@ async def async_generator() -> Generator[float, None, None]:
     """
     Asynchronously yields a random number between 0 and 10.
 
-    The coroutine loops 10 times, each time asynchronously waiting for 1 second.
+    The coroutine loops 10 times,
+    each time asynchronously waiting for 1 second.
     
     Yields:
         float: A random float between 0 and 10.
